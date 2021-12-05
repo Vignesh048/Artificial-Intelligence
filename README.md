@@ -3,12 +3,13 @@
 #### The final code is about creating a own tree using the user input
 
 ## 2. K- means Clustering
-#### Solving the given problem which involves implementation of K- means clustering Algorithm
-
-a) User the random number generator numpy.random.randn to to create 5 clusters of size (100,2) each. The cluster
+### Solving the given problem which involves implementation of K- means clustering Algorithm
+#### 1) Create synthetic data
+a) Use the random number generator numpy.random.randn to to create 5 clusters of size (100,2) each. The cluster
 centers are [(0,0), (0,2), (1, 1),(2,0),(2,2)].
 b) Visualize the data using scatter plot from matplotlib package.
-2) Clustering using K-mean algorithm:
+
+#### 2) Clustering using K-mean algorithm:
 a) In real data, we do not know the number of clusters can be there. Hence, we will perform
 b) Consider there are K number of means. Assign data points randomly to each cluster from your synthetic data. Compute
 the mean of each cluster.
