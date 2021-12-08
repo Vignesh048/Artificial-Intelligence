@@ -1,6 +1,11 @@
-## 1. Search Methods Artificial-Intelligence
-#### The code has implementation of Breadth first search, Depth First Search, Uniform Cost Search and A* Search.
-#### The final code is about creating a own tree using the user input
+## 1. Implementation of Naive Bayes Classifier:
+
+#### The code consists of EDA, preprocessing using seaborn and Sckit-learn libraries and Naive Bayes is implemented without using Sckit-learn library.
+#### Gaussian Naive Bayes is applied for numerical variable and direct formula is used for categorical variable.
+#### With standardization and without standardization, the model is compared both the data gave same accuracy.
+#### So standardization has no effect on Gaussian Naive Bayes Model.
+#### The model is compared with Sckit-learn's GaussianNB model and found that accuracy is more for the model implemented than Sckit-Learn's model.
+#### The reason is GaussianNB takes the categorical features also a normally distributed feature.
 
 ## 2. K- means Clustering
 ### Solving the given problem which involves implementation of K- means clustering Algorithm
@@ -20,11 +25,7 @@ e) Stopping criteria: change in average of the K means is less than a threshold 
 threshold by verifying whether yours clusters are converging or not).
 f) Visualize your output for K = 2, 3,...,10.
 
-## 1. Implementation of Naive Bayes Classifier:
 
-#### The code consists of EDA, preprocessing using seaborn and Sckit-learn libraries and Naive Bayes is implemented without using Sckit-learn library.
-#### Gaussian Naive Bayes is applied for numerical variable and direct formula is used for categorical variable.
-#### With standardization and without standardization, the model is compared both the data gave same accuracy.
-#### So standardization has no effect on Gaussian Naive Bayes Model.
-#### The model is compared with Sckit-learn's GaussianNB model and found that accuracy is more for the model implemented than Sckit-Learn's model.
-#### The reason is GaussianNB takes the categorical features also a normally distributed feature.
+## 3. Search Methods Artificial-Intelligence
+#### The code has implementation of Breadth first search, Depth First Search, Uniform Cost Search and A* Search.
+#### The final code is about creating a own tree using the user input
