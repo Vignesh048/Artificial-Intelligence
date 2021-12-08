@@ -19,3 +19,12 @@ d) Repeat the steps a and b untill the stopping criteria met.
 e) Stopping criteria: change in average of the K means is less than a threshold (e.g., 0.5. Appropriately change the
 threshold by verifying whether yours clusters are converging or not).
 f) Visualize your output for K = 2, 3,...,10.
+
+## 1. Implementation of Naive Bayes Classifier:
+
+#### The code consists of EDA, preprocessing using seaborn and Sckit-learn libraries and Naive Bayes is implemented without using Sckit-learn library.
+#### Gaussian Naive Bayes is applied for numerical variable and direct formula is used for categorical variable.
+#### With standardization and without standardization, the model is compared both the data gave same accuracy.
+#### So standardization has no effect on Gaussian Naive Bayes Model.
+#### The model is compared with Sckit-learn's GaussianNB model and found that accuracy is more for the model implemented than Sckit-Learn's model.
+#### The reason is GaussianNB takes the categorical features also a normally distributed feature.
